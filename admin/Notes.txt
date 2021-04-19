@@ -1,0 +1,3 @@
+if($_FILES['image']['type']!='' && ($_FILES['image']['type']!='image/png' || $_FILES['image']['type']!='image/jpg' || $_FILES['image']['type']!='image/jpeg')){
+$msg="Please only select png,jpg and image format";
+}
